@@ -1,0 +1,12 @@
+{
+ "features": {
+  "featureA": {
+   "enabled": true,
+   "description": "Feature A is enabled"
+  },
+  "featureB": {
+   "enabled": false,
+   "description": "Feature B is disabled"
+  }
+ }
+}

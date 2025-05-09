@@ -1,0 +1,22 @@
+overrides:
+  tempo:
+    searchEnabled: true
+    metricsGenerator:
+      enabled: true
+    traces:
+      otlp:
+        grpc:
+          enabled: true
+          listenAddress: 0.0.0.0:4317
+    storage:
+      trace:
+        backend: local
+        local:
+          path: /var/tempo/traces
+    resources:
+      limits:
+        cpu: 200m
+        memory: 256Mi
+      requests:
+        cpu: 100m
+        memory: 128Mi
