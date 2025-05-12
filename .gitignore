@@ -1,0 +1,17 @@
+# Ignorar archivos de Terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignorar configuraciones de ArgoCD
+argocd-initial-admin-secret
+
+# Ignorar imágenes y otros archivos binarios
+*.jpg
+*.jpeg
+
+# Ignorar dependencias locales y cachés
+node_modules/
+venv/
+__pycache__/
+.vscode/
+.idea/
